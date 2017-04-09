@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wget -nc https://vscode-update.azurewebsites.net/1.11.1/linux-deb-x64/stable -O vscode.deb
+docker build -t vcs:latest .
+
