@@ -1,4 +1,4 @@
 #!/bin/bash
-docker run -ti -e DISPLAY -v $HOME/.Xauthority:/home/dummy/.Xauthority -v $PWD:/home/node -p 8080:8080 --net=host vcs:latest
+docker run -ti -e DISPLAY -v $HOME/.Xauthority:/home/node/.Xauthority -v $PWD:/home/node -p 8080:8080 --net=host vcs:latest
 
 
